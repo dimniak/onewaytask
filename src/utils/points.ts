@@ -40,7 +40,7 @@ export const calculateDailyPoints = (date: Date): string => {
    */
   function getDayOfSeason(date: Date): number {
     const month = date.getMonth(); // 0-11
-    const day = date.getDate();
+   // const day = date.getDate();
     const year = date.getFullYear();
   
     let seasonStartMonth = 0;
